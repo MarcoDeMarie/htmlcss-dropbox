@@ -49,6 +49,10 @@ h3{
   font-size: 25px;
 }
 
+h4{
+  font-size: 20px;
+}
+
 .bg-rosso{
   background-color: rgb(231, 24, 24);
 }
@@ -389,12 +393,14 @@ strong span{
   width: 100px;
   height: 100px;
 }
+/* LOGHI FINE*/
 
 .azienda{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 300px;
+  margin-bottom: 350px;
 }
 .azienda button{
   margin-right: 250px;
@@ -404,7 +410,50 @@ strong span{
   margin-left: 250px;
 }
 
-
-
-/* LOGHI FINE*/
 /* MAIN FINE */
+
+/* FOOTER INIZIO */
+
+/* DOMANDE FREQUENTI INZIO */
+.domande-frequenti{
+  margin-bottom: 100px;
+}
+
+.domande-frequenti ul{
+  list-style: none;
+}
+
+.domande-frequenti ul li{
+  font-size: 13px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid rgba(128, 128, 128, 0.356);
+}
+
+.domande-frequenti ul li:last-child{
+  border-bottom: 2px solid rgba(128, 128, 128, 0.356);
+  padding-bottom: 30px;
+}
+/* DOMANDE FREQUENTI FINE */
+.menu-finale{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+}
+
+.menu-finale ul{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.menu-finale ul li{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* FOOTER FINE */
